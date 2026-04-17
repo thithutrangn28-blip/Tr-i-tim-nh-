@@ -30,6 +30,8 @@ import { compressImage } from '../utils/imageUtils';
 import { getAllStories, saveStory, deleteStory as deleteStoryFromDB, clearAllStories } from '../utils/db';
 import { Novel, Chapter, NPCComment } from '../types';
 import { WRITING_STYLES } from '../constants/writingStyles';
+import { NSFWCore } from '../core/nsfw/nsfw-core';
+import { sendNSFWMessage } from '../services/nsfwService';
 
 interface NovelScreenProps {
   onBack: () => void;
