@@ -252,4 +252,4 @@ BẮT ĐẦU NGAY BẰNG NỘI DUNG TÌNH DỤC CHI TIẾT VÀ DÂM ĐÃNG.`;
 }
 
 // Export mặc định
-export default NSFWCore;
+export default NSFWCore;.
